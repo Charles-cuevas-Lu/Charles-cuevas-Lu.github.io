@@ -1,0 +1,37 @@
+table,th,td{
+	border: 2px solid black;//使表格框框為黑色 大小為2px
+}
+th{
+	text-align:center;//使表頭內元素置中
+	color: blue;//使表頭內元素藍色
+	padding: 5px;//使表格與字中間有5px的空間
+}
+td{
+	text-align:center;
+	color:black;
+}
+::selection{
+	color:white;
+	background:red;//當選擇文字時 會成紅底白字
+}
+
+#top_title{
+	text-align:center;
+	color:grey;
+}
+button{
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block; //行內區塊
+  	font-size: 16px; //字體大小
+	border-radius: 12px; //按鈕圓滑
+	padding: 5px 10px;
+}
+button:hover{
+  	background-color: red; //漂浮在按鈕上會顯示成紅底白字
+  	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); //有陰影效果
+}
